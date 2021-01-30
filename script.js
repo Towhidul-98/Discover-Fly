@@ -32,8 +32,8 @@ function bookNowTransitions(){
     document.getElementById("firstPart").style.display = 'none';
     document.getElementById("secondPart").style.display = 'block';
     // Table Value Is Organizing 
-    const firstCLassTicketAmount = document.getElementById("FirstCLassTicketAmount");
-    firstCLassTicketAmount.innerText=document.getElementById("firstClassTotalTicket").value;
+    const firstClassTicketAmount = document.getElementById("FirstCLassTicketAmount");
+    firstClassTicketAmount.innerText=document.getElementById("firstClassTotalTicket").value;
     const economyTicketAmount = document.getElementById("EconomyTicketAmount");
     economyTicketAmount.innerText=document.getElementById("economyTotalTicket").value;  
 }
