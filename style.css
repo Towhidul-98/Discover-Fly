@@ -130,6 +130,26 @@ nav ul li a:hover, a.active{
 }
 #secondPart{
     display : none;
-    justify-content: center;
-    align-items: center;
 }
+.second_page-design{
+   margin-top: 5%;
+}
+.text-style{
+    color :rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    padding : 10px;
+}
+table{
+    border : 2px solid rgb(1, 28, 78); 
+    color: rgb(37, 4, 4); 
+    width: 400px ; 
+    margin:  auto;
+    background-color: rgba(194, 126, 78, 0.87);
+}
+td,th{
+    padding: 5%;
+    text-align: center; 
+    border : 2px solid rgb(1, 28, 78); 
+}
+

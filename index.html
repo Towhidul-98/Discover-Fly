@@ -97,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <button onclick="lastInfo()" class="btn-style">Book Now</button>
+            <button onclick="bookNowTransitions()" class="btn-style">Book Now</button>
         </div>
 
         <div class="booking-content">
@@ -105,28 +105,36 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Provident voluptatibus quam fuga laborumalias veniam libero autem quasi maxime ullam vero nama imi dolor, architecto ab facilis eaque deserunt nobise voluptatibus quam</p>
         </div>
     </main>
-    <div id= "secondPart">
+    <div id= "secondPart" class="second_page-design">
         <div>
             <div>
-                <h1>Ticket Booked</h1>
+                <h1 class="text-style">Ticket Booked</h1>
                 <table>
-                    <tr>
-                        <td>First Class Ticket</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>Economy Class</td>
-                        <td>0</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Ticket Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>First Class Ticket</td>
+                            <td id="FirstCLassTicketAmount"></td>
+                        </tr>
+                        <tr>
+                            <td>Economy Class</td>
+                            <td id="EconomyTicketAmount"></td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
             <div>
-                <h1>Welcome!!</h1>
+                <h1  class="text-style">Welcome!!!</h1>
+                <h3 class="text-style">Have A Safe Journey</h3>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
     <!--Thank You-->
 </body>
-
 </html>

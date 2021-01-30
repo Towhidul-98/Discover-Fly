@@ -9,7 +9,7 @@ function TicketNumber(category,change){
 }
 
 function displayTicketCost(){
-    const subCost = ticketCost("firstClass") + ticketCost("economy")
+    const subCost = ticketCost("firstClass") + ticketCost("economy");
     document.getElementById("Subtotal").innerText = subCost ;
     const tax = 0.1 * subCost ;
     document.getElementById("tax").innerText = tax;
@@ -28,7 +28,12 @@ function ticketCost(category){
     return cost;
 }
 
-function lastInfo(){
+function bookNowTransitions(){
     document.getElementById("firstPart").style.display = 'none';
     document.getElementById("secondPart").style.display = 'block';
+    // Table Value Is Organizing 
+    const FirstCLassTicketAmount = document.getElementById("FirstCLassTicketAmount");
+    FirstCLassTicketAmount.innerText=document.getElementById("firstClassTotalTicket").value;
+    const EconomyTicketAmount = document.getElementById("EconomyTicketAmount");
+    EconomyTicketAmount.innerText=document.getElementById("economyTotalTicket").value;  
 }
