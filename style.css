@@ -10,7 +10,7 @@ body{
     background:url("images/bg.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -119,4 +119,17 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.button-design{
+    border : none;
+    background-color: white ;
+}
+.button-content-design{
+    color : #3352F2;
+    font-size: 35px;
+}
+#secondPart{
+    display : none;
+    justify-content: center;
+    align-items: center;
 }
